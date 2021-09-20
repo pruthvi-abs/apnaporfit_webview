@@ -1,0 +1,46 @@
+<resources>
+    <style name="df_dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="df_dialog_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="homeHeading" parent="viewParent">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="learnhubTitleText" parent="parent">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="retryButton" parent="parent">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#bf9233</item>
+    </style>
+</resources>
